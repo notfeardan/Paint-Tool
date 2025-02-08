@@ -161,6 +161,45 @@ canvas#canvas {
   display: none;
 }
 
+.social-links {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+}
+
+.made-by {
+  margin-top: 2px;
+  color: white;
+  font-size: 20px;
+  user-select: none;
+}
+
+.social-btn {
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.social-btn .fab {
+  font-size: 25px;
+  width: 35px;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover .fab {
+  filter: brightness(90%);
+}
+
+.social-btn .fab,
+.social-btn:link .fab,
+.social-btn:visited .fab,
+.social-btn:hover .fab,
+.social-btn:active .fab {
+  color: white;
+}
+
 /* Media Query: Mobile Devices */
 @media screen and (max-width: 800px) {
   .mobile-message {
